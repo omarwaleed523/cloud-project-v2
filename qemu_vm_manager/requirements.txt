@@ -1,0 +1,10 @@
+# No external dependencies beyond Python standard library
+# The application uses:
+# - tkinter (standard library)
+# - json (standard library)
+# - os (standard library)
+# - subprocess (standard library)
+# - logging (standard library)
+# - datetime (standard library)
+
+# Note: QEMU must be installed separately and available in your system PATH 

@@ -1,0 +1,66 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual disk files
+qemu_vm_manager/vdisks/
+*.qcow2
+*.raw
+*.vdi
+*.vmdk
+*.img
+*.vhd
+
+# ISO files
+qemu_vm_manager/isos/
+*.iso
+
+# VM configurations and logs
+qemu_vm_manager/vms/
+qemu_vm_manager/logs/
+*.log
+*.bat
+*.json
+
+# IDE related files
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Environment related
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/ 
